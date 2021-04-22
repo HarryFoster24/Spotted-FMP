@@ -2085,3 +2085,203 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.04.22-13.19.08:319][688]SourceControl:  rewrite Content/Assets/Interactive/doorBP.uasset (72%)
 [2021.04.22-13.19.08:319][688]SourceControl:  rewrite Content/Widgets/settingsWidget.uasset (81%)
 [2021.04.22-13.19.08:322][688]SourceControl: Commited [master 69916c7] all upload.
+[2021.04.22-13.20.14:078][896]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/settingsWidget.settingsWidget
+[2021.04.22-13.20.37:897][222]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.20.37:900][222]LogBlueprint: Warning: [Compiler settingsWidget] 'Third Person Character' does not inherit from 'Player Controller' ( Cast To ThirdPersonCharacter  would always fail).
+[2021.04.22-13.20.37:927][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.04.22-13.20.47:562][778]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.20.47:585][778]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.04.22-13.21.38:866][714]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.21.38:869][714]LogBlueprint: Error: [Compiler settingsWidget] This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2021.04.22-13.21.38:869][714]LogBlueprint: Error: [Compiler settingsWidget] Variable node  Set Mouse  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2021.04.22-13.21.38:891][714]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.04.22-13.21.58:498][861]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.21.58:501][861]LogBlueprint: Error: [Compiler settingsWidget] This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2021.04.22-13.21.58:501][861]LogBlueprint: Error: [Compiler settingsWidget] Variable node  Set Mouse  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2021.04.22-13.21.58:522][861]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.04.22-13.21.58:755][874]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.21.58:758][874]LogBlueprint: Error: [Compiler settingsWidget] This blueprint (self) is not a FirstPersonCharacter_C, therefore ' Target ' must have a connection.
+[2021.04.22-13.21.58:758][874]LogBlueprint: Error: [Compiler settingsWidget] Variable node  Set Mouse  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2021.04.22-13.21.58:779][874]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.04.22-13.22.02:520][ 94]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.22.02:544][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2021.04.22-13.22.04:081][162]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-13.22.04:092][162]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.04.22-13.22.04:096][162]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2021.04.22-13.22.04:147][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.04.22-13.22.04:148][162]LogPlayLevel: PlayLevel: Blueprint regeneration took 56 ms (1 blueprints)
+[2021.04.22-13.22.04:149][162]PIE: New page: PIE session: testArea (22 Apr 2021, 15:22:04)
+[2021.04.22-13.22.04:149][162]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.22.04:161][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011863s)
+[2021.04.22-13.22.04:162][162]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-13.22.04:162][162]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209E5643800), frame # 112162
+[2021.04.22-13.22.04:162][162]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209DA8E42C0), frame # 112162
+[2021.04.22-13.22.04:162][162]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2021.04.22-13.22.04:162][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.013146s)
+[2021.04.22-13.22.04:181][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.04.22-13.22.04:182][162]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-13.22.04:182][162]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-13.22.04:182][162]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-13.22.04:182][162]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-13.22.04:182][162]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-13.22.04:182][162]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-13.22.04:182][162]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-13.22.04:182][162]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-13.22.04:183][162]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-13.22.04:183][162]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-13.22.04:184][162]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-13.22.04:184][162]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-13.22.04:184][162]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-13.22.04:184][162]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-13.22.04:184][162]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-13.22.04:186][162]LogInit: FAudioDevice initialized.
+[2021.04.22-13.22.04:191][162]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-13.22.04:193][162]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-14.22.04
+[2021.04.22-13.22.04:194][162]LogWorld: Bringing up level for play took: 0.001910
+[2021.04.22-13.22.04:194][162]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2021.04.22-13.22.04:195][162]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-13.22.04:196][162]PIE: Server logged in
+[2021.04.22-13.22.04:197][162]PIE: Play in editor total start time 0.108 seconds.
+[2021.04.22-13.22.49:052][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.22.49:052][849]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.22.49:053][849]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.22.49:053][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.22.49:057][849]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-13.22.49:060][849]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.22.49:076][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.22.49:094][849]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000209DA8E42C0), frame # 114849
+[2021.04.22-13.22.49:094][849]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209E5643800), frame # 114849
+[2021.04.22-13.22.49:096][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2021.04.22-13.22.49:244][856]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2021.04.22-13.23.03:077][587]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.22-13.23.18:174][409]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.23.18:211][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2021.04.22-13.24.18:294][940]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-13.24.18:306][940]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.04.22-13.24.18:320][940]LogPlayLevel: [PlayLevel] Compiling settingsWidget before play...
+[2021.04.22-13.24.18:431][940]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.04.22-13.24.18:433][940]LogPlayLevel: PlayLevel: Blueprint regeneration took 126 ms (1 blueprints)
+[2021.04.22-13.24.18:433][940]PIE: New page: PIE session: testArea (22 Apr 2021, 15:24:18)
+[2021.04.22-13.24.18:473][940]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.24.18:485][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011928s)
+[2021.04.22-13.24.18:485][940]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-13.24.18:485][940]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209FE23BE00), frame # 119940
+[2021.04.22-13.24.18:486][940]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002092AFCD300), frame # 119940
+[2021.04.22-13.24.18:486][940]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2021.04.22-13.24.18:486][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.013083s)
+[2021.04.22-13.24.18:505][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.04.22-13.24.18:506][940]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-13.24.18:506][940]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-13.24.18:506][940]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-13.24.18:506][940]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-13.24.18:506][940]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-13.24.18:506][940]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-13.24.18:506][940]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-13.24.18:506][940]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-13.24.18:506][940]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-13.24.18:506][940]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-13.24.18:508][940]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-13.24.18:508][940]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-13.24.18:508][940]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-13.24.18:508][940]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-13.24.18:508][940]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-13.24.18:510][940]LogInit: FAudioDevice initialized.
+[2021.04.22-13.24.18:514][940]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-13.24.18:516][940]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-14.24.18
+[2021.04.22-13.24.18:517][940]LogWorld: Bringing up level for play took: 0.001813
+[2021.04.22-13.24.18:517][940]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2021.04.22-13.24.18:518][940]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-13.24.18:520][940]PIE: Server logged in
+[2021.04.22-13.24.18:520][940]PIE: Play in editor total start time 0.218 seconds.
+[2021.04.22-13.24.58:495][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.24.58:495][287]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.24.58:495][287]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.24.58:496][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.24.58:504][287]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-13.24.58:510][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.24.58:536][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.24.58:554][287]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002092AFCD300), frame # 122287
+[2021.04.22-13.24.58:554][287]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209FE23BE00), frame # 122287
+[2021.04.22-13.24.58:556][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.04.22-13.24.58:679][294]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2021.04.22-13.25.15:355][279]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.25.15:387][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.04.22-13.25.15:462][279]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.25.15:495][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.04.22-13.25.17:789][408]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2021.04.22-13.25.17:795][408]LogSlate: Window 'FirstPersonCharacter' being destroyed
+[2021.04.22-13.25.17:797][408]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.25.17:797][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.25.17:800][408]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.25.17:800][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.25.17:843][408]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.25.17:843][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/Volumetrics/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/Volumetrics/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:446][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:447][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:447][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:447][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:447][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:447][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:447][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:447][543]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.20:578][543]EditorErrors: Warning: No assets to check in!
+[2021.04.22-13.25.23:067][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.04.22-13.25.24:222][677]LogSlate: Window 'Save Content' being destroyed
+[2021.04.22-13.25.24:367][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/testArea" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.04.22-13.25.24:383][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.04.22-13.25.24:413][677]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/testAreaE78ABFCF48C2901BEA279E88F7209BCB.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea.umap'
+[2021.04.22-13.25.24:427][677]LogFileHelpers: Saving map 'testArea' took 0.060
+[2021.04.22-13.25.24:427][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/testArea_BuiltData" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea_BuiltData.uasset" SILENT=true
+[2021.04.22-13.25.24:448][677]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/testArea_BuiltDataEA6A0E084F95C4AAA6AC86854DC7F364.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea_BuiltData.uasset'
+[2021.04.22-13.25.24:449][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/testArea_BuiltData" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea_BuiltData.uasset" SILENT=true
+[2021.04.22-13.25.24:468][677]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/testArea_BuiltData342139C5484EA1CA8C606BA2BC235906.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea_BuiltData.uasset'
+[2021.04.22-13.25.24:469][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/settingsWidget" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/Widgets/settingsWidget.uasset" SILENT=true
+[2021.04.22-13.25.24:476][677]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/settingsWidget44A576BD47727F16C19DE08BF6E5D339.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/Widgets/settingsWidget.uasset'
+[2021.04.22-13.25.24:492][677]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.22-13.25.24:492][677]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/testArea.testArea
+[2021.04.22-13.25.24:492][677]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/testArea_BuiltData.testArea_BuiltData
+[2021.04.22-13.25.24:492][677]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/settingsWidget.settingsWidget
+[2021.04.22-13.25.25:314][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/testArea" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.04.22-13.25.25:331][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.04.22-13.25.25:358][717]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/testArea2F5B82EE49BA2EE1F9C929B6B6CDBD66.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea.umap'
+[2021.04.22-13.25.25:456][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/testArea_BuiltData" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea_BuiltData.uasset" SILENT=true
+[2021.04.22-13.25.25:476][717]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/testArea_BuiltDataFECC670B4F6FB6BF181B41931713E496.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea_BuiltData.uasset'
+[2021.04.22-13.25.25:486][717]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.22-13.25.25:486][717]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/testArea.testArea
+[2021.04.22-13.25.25:486][717]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/testArea_BuiltData.testArea_BuiltData
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/Volumetrics/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/Volumetrics/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.27:595][828]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.25.34:633][828]LogSlate: Window 'Submit Files' being destroyed
+[2021.04.22-13.25.35:788][828]LogSourceControl: commit successful: [master 2ae8af0] sensitivity finished
+[2021.04.22-13.25.35:908][828]SourceControl: [master 2ae8af0] sensitivity finished
+[2021.04.22-13.25.35:908][828]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2021.04.22-13.25.35:908][828]SourceControl:  rewrite Content/Widgets/settingsWidget.uasset (69%)
+[2021.04.22-13.25.35:911][828]SourceControl: Commited [master 2ae8af0] sensitivity finished.

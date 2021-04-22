@@ -1139,3 +1139,949 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.04.22-12.54.44:724][265]SourceControl: [master 1b7da70] door widget not triggered by npc
 [2021.04.22-12.54.44:724][265]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2021.04.22-12.54.44:731][265]SourceControl: Commited [master 1b7da70] door widget not triggered by npc.
+[2021.04.22-12.55.32:856][741]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-12.55.32:866][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-12.55.32:867][741]PIE: New page: PIE session: testArea (22 Apr 2021, 14:55:32)
+[2021.04.22-12.55.32:867][741]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.55.32:877][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010766s)
+[2021.04.22-12.55.32:878][741]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-12.55.32:879][741]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020911EAAE00), frame # 29741
+[2021.04.22-12.55.32:879][741]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002099F707740), frame # 29741
+[2021.04.22-12.55.32:879][741]LogPlayLevel: PIE: World Init took: (0.001192s)
+[2021.04.22-12.55.32:879][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.012086s)
+[2021.04.22-12.55.32:898][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.04.22-12.55.32:901][741]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-12.55.32:901][741]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-12.55.32:901][741]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-12.55.32:901][741]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-12.55.32:901][741]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-12.55.32:901][741]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-12.55.32:901][741]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-12.55.32:901][741]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-12.55.32:902][741]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-12.55.32:902][741]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-12.55.32:903][741]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-12.55.32:903][741]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-12.55.32:903][741]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-12.55.32:903][741]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-12.55.32:903][741]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-12.55.32:905][741]LogInit: FAudioDevice initialized.
+[2021.04.22-12.55.32:911][741]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-12.55.32:913][741]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-13.55.32
+[2021.04.22-12.55.32:914][741]LogWorld: Bringing up level for play took: 0.001829
+[2021.04.22-12.55.32:914][741]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.04.22-12.55.32:915][741]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-12.55.32:916][741]PIE: Server logged in
+[2021.04.22-12.55.32:917][741]PIE: Play in editor total start time 0.054 seconds.
+[2021.04.22-12.55.34:743][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.55.34:744][848]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.55.34:744][848]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-12.55.34:744][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.55.34:750][848]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-12.55.34:753][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.55.34:782][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.55.34:783][848]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002099F707740), frame # 29848
+[2021.04.22-12.55.34:783][848]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020911EAAE00), frame # 29848
+[2021.04.22-12.55.34:784][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.04.22-12.55.34:907][855]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.04.22-12.55.40:674][198]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.22-12.56.19:471][322]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.04.22-12.56.19:518][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2021.04.22-12.56.19:541][322]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.04.22-12.56.19:586][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.04.22-12.56.20:729][367]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-12.56.20:739][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-12.56.20:739][367]PIE: New page: PIE session: testArea (22 Apr 2021, 14:56:20)
+[2021.04.22-12.56.20:780][367]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.56.20:794][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014079s)
+[2021.04.22-12.56.20:795][367]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-12.56.20:795][367]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209A46FCE00), frame # 32367
+[2021.04.22-12.56.20:795][367]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002099A0D9E40), frame # 32367
+[2021.04.22-12.56.20:795][367]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2021.04.22-12.56.20:795][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.015180s)
+[2021.04.22-12.56.20:816][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.04.22-12.56.20:817][367]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-12.56.20:817][367]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-12.56.20:817][367]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-12.56.20:817][367]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-12.56.20:817][367]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-12.56.20:817][367]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-12.56.20:817][367]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-12.56.20:817][367]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-12.56.20:818][367]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-12.56.20:818][367]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-12.56.20:819][367]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-12.56.20:819][367]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-12.56.20:819][367]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-12.56.20:819][367]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-12.56.20:819][367]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-12.56.20:821][367]LogInit: FAudioDevice initialized.
+[2021.04.22-12.56.20:829][367]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-12.56.20:832][367]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-13.56.20
+[2021.04.22-12.56.20:832][367]LogWorld: Bringing up level for play took: 0.001870
+[2021.04.22-12.56.20:833][367]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.04.22-12.56.20:834][367]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-12.56.20:835][367]PIE: Server logged in
+[2021.04.22-12.56.20:835][367]PIE: Play in editor total start time 0.1 seconds.
+[2021.04.22-12.56.22:020][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.56.22:020][435]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.56.22:020][435]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-12.56.22:020][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.56.22:026][435]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-12.56.22:029][435]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.56.22:058][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.56.22:059][435]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002099A0D9E40), frame # 32435
+[2021.04.22-12.56.22:059][435]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209A46FCE00), frame # 32435
+[2021.04.22-12.56.22:061][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.04.22-12.56.22:192][442]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.04.22-12.56.48:541][956]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.04.22-12.56.48:588][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.04.22-12.56.49:989][ 13]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-12.56.49:999][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-12.56.49:999][ 13]PIE: New page: PIE session: testArea (22 Apr 2021, 14:56:49)
+[2021.04.22-12.56.49:999][ 13]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.56.50:011][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011447s)
+[2021.04.22-12.56.50:012][ 13]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-12.56.50:012][ 13]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209ACD47E00), frame # 34013
+[2021.04.22-12.56.50:012][ 13]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209A470BC40), frame # 34013
+[2021.04.22-12.56.50:012][ 13]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2021.04.22-12.56.50:012][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.012559s)
+[2021.04.22-12.56.50:032][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.04.22-12.56.50:033][ 13]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-12.56.50:033][ 13]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-12.56.50:033][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-12.56.50:033][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-12.56.50:033][ 13]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-12.56.50:033][ 13]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-12.56.50:033][ 13]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-12.56.50:033][ 13]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-12.56.50:033][ 13]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-12.56.50:033][ 13]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-12.56.50:034][ 13]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-12.56.50:035][ 13]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-12.56.50:035][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-12.56.50:035][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-12.56.50:035][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-12.56.50:036][ 13]LogInit: FAudioDevice initialized.
+[2021.04.22-12.56.50:049][ 13]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-12.56.50:052][ 13]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-13.56.50
+[2021.04.22-12.56.50:053][ 13]LogWorld: Bringing up level for play took: 0.003297
+[2021.04.22-12.56.50:053][ 13]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.04.22-12.56.50:055][ 13]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-12.56.50:057][ 13]PIE: Server logged in
+[2021.04.22-12.56.50:058][ 13]PIE: Play in editor total start time 0.061 seconds.
+[2021.04.22-12.56.54:668][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.56.54:668][268]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.56.54:669][268]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-12.56.54:669][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.56.54:676][268]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-12.56.54:679][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.56.54:708][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.56.54:709][268]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000209A470BC40), frame # 34268
+[2021.04.22-12.56.54:709][268]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209ACD47E00), frame # 34268
+[2021.04.22-12.56.54:711][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.04.22-12.56.54:841][275]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.04.22-12.57.23:825][914]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.04.22-12.57.23:835][914]LogBlueprint: Error: [Compiler FirstPersonCharacter] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2021.04.22-12.57.23:835][914]LogBlueprint: Error: [Compiler FirstPersonCharacter] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2021.04.22-12.57.23:836][914]LogBlueprint: Error: [Compiler FirstPersonCharacter] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2021.04.22-12.57.23:836][914]LogBlueprint: Error: [Compiler FirstPersonCharacter] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2021.04.22-12.57.23:867][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2021.04.22-12.57.24:509][947]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-12.57.24:518][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-12.57.24:518][947]BlueprintLog: Warning: Blueprint failed to compile:  FirstPersonCharacter
+[2021.04.22-12.57.24:518][947]LogCustomDialog: Dialog displayed:
+[2021.04.22-12.57.26:273][947]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2021.04.22-12.57.27:757][ 29]LogSlate: Window 'Message Log' being destroyed
+[2021.04.22-12.57.27:761][ 29]LogSlate: Window 'Message Log' being destroyed
+[2021.04.22-12.57.42:346][857]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.04.22-12.57.42:398][857]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.04.22-12.57.43:426][912]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-12.57.43:436][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-12.57.43:436][912]PIE: New page: PIE session: testArea (22 Apr 2021, 14:57:43)
+[2021.04.22-12.57.43:466][912]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.57.43:479][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013501s)
+[2021.04.22-12.57.43:479][912]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-12.57.43:479][912]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209A158CE00), frame # 36912
+[2021.04.22-12.57.43:479][912]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002099AAAEE80), frame # 36912
+[2021.04.22-12.57.43:480][912]LogPlayLevel: PIE: World Init took: (0.001094s)
+[2021.04.22-12.57.43:480][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.014728s)
+[2021.04.22-12.57.43:498][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.04.22-12.57.43:500][912]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-12.57.43:500][912]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-12.57.43:500][912]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-12.57.43:500][912]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-12.57.43:500][912]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-12.57.43:500][912]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-12.57.43:500][912]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-12.57.43:500][912]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-12.57.43:500][912]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-12.57.43:500][912]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-12.57.43:501][912]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-12.57.43:501][912]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-12.57.43:501][912]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-12.57.43:501][912]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-12.57.43:502][912]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-12.57.43:503][912]LogInit: FAudioDevice initialized.
+[2021.04.22-12.57.43:508][912]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-12.57.43:511][912]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-13.57.43
+[2021.04.22-12.57.43:511][912]LogWorld: Bringing up level for play took: 0.001816
+[2021.04.22-12.57.43:511][912]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.04.22-12.57.43:513][912]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-12.57.43:514][912]PIE: Server logged in
+[2021.04.22-12.57.43:514][912]PIE: Play in editor total start time 0.081 seconds.
+[2021.04.22-12.58.00:853][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.58.00:853][920]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.58.00:853][920]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-12.58.00:855][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.58.00:863][920]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-12.58.00:868][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.58.00:912][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.58.00:912][920]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002099AAAEE80), frame # 37920
+[2021.04.22-12.58.00:912][920]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209A158CE00), frame # 37920
+[2021.04.22-12.58.00:914][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.04.22-12.58.01:044][927]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.04.22-12.58.04:264][101]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/settingsWidget.settingsWidget
+[2021.04.22-12.58.20:260][979]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-12.58.20:318][979]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.04.22-12.58.32:680][704]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-12.58.32:711][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.04.22-12.58.34:449][796]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-12.58.34:460][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-12.58.34:460][796]PIE: New page: PIE session: testArea (22 Apr 2021, 14:58:34)
+[2021.04.22-12.58.34:460][796]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.58.34:472][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011811s)
+[2021.04.22-12.58.34:472][796]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-12.58.34:473][796]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209AC88E200), frame # 39796
+[2021.04.22-12.58.34:473][796]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209892E9A80), frame # 39796
+[2021.04.22-12.58.34:473][796]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2021.04.22-12.58.34:473][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.013095s)
+[2021.04.22-12.58.34:497][796]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.04.22-12.58.34:499][796]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-12.58.34:499][796]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-12.58.34:499][796]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-12.58.34:499][796]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-12.58.34:499][796]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-12.58.34:499][796]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-12.58.34:499][796]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-12.58.34:499][796]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-12.58.34:499][796]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-12.58.34:500][796]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-12.58.34:501][796]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-12.58.34:501][796]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-12.58.34:501][796]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-12.58.34:501][796]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-12.58.34:501][796]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-12.58.34:503][796]LogInit: FAudioDevice initialized.
+[2021.04.22-12.58.34:514][796]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-12.58.34:516][796]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-13.58.34
+[2021.04.22-12.58.34:517][796]LogWorld: Bringing up level for play took: 0.002184
+[2021.04.22-12.58.34:517][796]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.04.22-12.58.34:518][796]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-12.58.34:519][796]PIE: Server logged in
+[2021.04.22-12.58.34:520][796]PIE: Play in editor total start time 0.064 seconds.
+[2021.04.22-12.58.46:611][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.58.46:612][469]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.58.46:612][469]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-12.58.46:613][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.58.46:632][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-12.58.46:642][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.58.46:684][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.58.46:685][469]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000209892E9A80), frame # 40469
+[2021.04.22-12.58.46:685][469]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209AC88E200), frame # 40469
+[2021.04.22-12.58.46:687][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.04.22-12.58.46:819][476]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.04.22-12.59.09:098][639]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.04.22-12.59.09:157][639]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2021.04.22-12.59.10:680][698]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-12.59.10:690][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-12.59.10:690][698]PIE: New page: PIE session: testArea (22 Apr 2021, 14:59:10)
+[2021.04.22-12.59.10:690][698]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.59.10:702][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011664s)
+[2021.04.22-12.59.10:703][698]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-12.59.10:703][698]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209CEF60C00), frame # 41698
+[2021.04.22-12.59.10:703][698]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002092AE39300), frame # 41698
+[2021.04.22-12.59.10:703][698]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2021.04.22-12.59.10:703][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.012856s)
+[2021.04.22-12.59.10:730][698]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.04.22-12.59.10:731][698]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-12.59.10:731][698]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-12.59.10:731][698]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-12.59.10:731][698]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-12.59.10:731][698]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-12.59.10:731][698]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-12.59.10:732][698]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-12.59.10:732][698]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-12.59.10:732][698]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-12.59.10:732][698]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-12.59.10:733][698]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-12.59.10:733][698]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-12.59.10:733][698]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-12.59.10:733][698]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-12.59.10:733][698]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-12.59.10:735][698]LogInit: FAudioDevice initialized.
+[2021.04.22-12.59.10:743][698]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-12.59.10:745][698]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-13.59.10
+[2021.04.22-12.59.10:745][698]LogWorld: Bringing up level for play took: 0.001864
+[2021.04.22-12.59.10:746][698]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.04.22-12.59.10:747][698]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-12.59.10:748][698]PIE: Server logged in
+[2021.04.22-12.59.10:748][698]PIE: Play in editor total start time 0.062 seconds.
+[2021.04.22-12.59.15:410][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.59.15:410][973]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.59.15:449][973]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-12.59.15:450][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.59.15:468][973]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-12.59.15:478][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.59.15:514][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.59.15:514][973]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002092AE39300), frame # 41973
+[2021.04.22-12.59.15:514][973]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209CEF60C00), frame # 41973
+[2021.04.22-12.59.15:517][973]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.04.22-12.59.15:681][980]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.04.22-12.59.41:770][493]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-12.59.41:809][493]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.04.22-12.59.43:648][577]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-12.59.43:657][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-12.59.43:657][577]PIE: New page: PIE session: testArea (22 Apr 2021, 14:59:43)
+[2021.04.22-12.59.43:698][577]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.59.43:719][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021112s)
+[2021.04.22-12.59.43:720][577]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-12.59.43:720][577]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209C785CC00), frame # 43577
+[2021.04.22-12.59.43:720][577]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020989439F80), frame # 43577
+[2021.04.22-12.59.43:720][577]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2021.04.22-12.59.43:720][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.022452s)
+[2021.04.22-12.59.43:746][577]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.04.22-12.59.43:748][577]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-12.59.43:748][577]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-12.59.43:748][577]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-12.59.43:748][577]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-12.59.43:748][577]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-12.59.43:748][577]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-12.59.43:748][577]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-12.59.43:748][577]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-12.59.43:748][577]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-12.59.43:748][577]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-12.59.43:749][577]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-12.59.43:749][577]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-12.59.43:749][577]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-12.59.43:749][577]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-12.59.43:750][577]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-12.59.43:751][577]LogInit: FAudioDevice initialized.
+[2021.04.22-12.59.43:760][577]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-12.59.43:762][577]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-13.59.43
+[2021.04.22-12.59.43:763][577]LogWorld: Bringing up level for play took: 0.001821
+[2021.04.22-12.59.43:763][577]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.04.22-12.59.43:764][577]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-12.59.43:766][577]PIE: Server logged in
+[2021.04.22-12.59.43:766][577]PIE: Play in editor total start time 0.111 seconds.
+[2021.04.22-12.59.50:655][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.59.50:655][985]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-12.59.50:655][985]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-12.59.50:657][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.59.50:671][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-12.59.50:681][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-12.59.50:728][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-12.59.50:729][985]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020989439F80), frame # 43985
+[2021.04.22-12.59.50:729][985]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209C785CC00), frame # 43985
+[2021.04.22-12.59.50:733][985]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2021.04.22-12.59.50:856][992]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.04.22-13.00.26:849][ 87]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.00.26:879][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.04.22-13.01.15:788][945]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.01.15:830][945]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.04.22-13.01.34:904][ 57]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.01.34:933][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.04.22-13.01.55:575][248]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.04.22-13.01.55:632][248]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.04.22-13.01.56:872][304]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-13.01.56:883][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-13.01.56:883][304]PIE: New page: PIE session: testArea (22 Apr 2021, 15:01:56)
+[2021.04.22-13.01.56:924][304]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.01.56:940][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016540s)
+[2021.04.22-13.01.56:941][304]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-13.01.56:941][304]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020976352400), frame # 51304
+[2021.04.22-13.01.56:941][304]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209BF6BBC40), frame # 51304
+[2021.04.22-13.01.56:942][304]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2021.04.22-13.01.56:942][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.017738s)
+[2021.04.22-13.01.56:968][304]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.04.22-13.01.56:970][304]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-13.01.56:970][304]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-13.01.56:970][304]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-13.01.56:970][304]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-13.01.56:970][304]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-13.01.56:970][304]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-13.01.56:970][304]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-13.01.56:970][304]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-13.01.56:971][304]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-13.01.56:971][304]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-13.01.56:972][304]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-13.01.56:972][304]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-13.01.56:972][304]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-13.01.56:972][304]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-13.01.56:972][304]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-13.01.56:974][304]LogInit: FAudioDevice initialized.
+[2021.04.22-13.01.56:979][304]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-13.01.56:981][304]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-14.01.56
+[2021.04.22-13.01.56:981][304]LogWorld: Bringing up level for play took: 0.001817
+[2021.04.22-13.01.56:982][304]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.04.22-13.01.56:983][304]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-13.01.56:984][304]PIE: Server logged in
+[2021.04.22-13.01.56:985][304]PIE: Play in editor total start time 0.105 seconds.
+[2021.04.22-13.02.00:271][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.02.00:271][497]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.02.00:272][497]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.02.00:273][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.02.00:294][497]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-13.02.00:304][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.02.00:344][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.02.00:345][497]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000209BF6BBC40), frame # 51497
+[2021.04.22-13.02.00:345][497]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020976352400), frame # 51497
+[2021.04.22-13.02.00:347][497]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.04.22-13.02.00:482][504]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.04.22-13.02.03:656][670]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.04.22-13.02.03:712][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.04.22-13.02.04:752][711]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-13.02.04:763][711]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-13.02.04:763][711]PIE: New page: PIE session: testArea (22 Apr 2021, 15:02:04)
+[2021.04.22-13.02.04:763][711]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.02.04:775][711]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011873s)
+[2021.04.22-13.02.04:776][711]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-13.02.04:776][711]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209CF78D200), frame # 51711
+[2021.04.22-13.02.04:776][711]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209C21C8B80), frame # 51711
+[2021.04.22-13.02.04:776][711]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2021.04.22-13.02.04:776][711]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.013019s)
+[2021.04.22-13.02.04:804][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2021.04.22-13.02.04:806][711]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-13.02.04:806][711]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-13.02.04:806][711]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-13.02.04:806][711]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-13.02.04:806][711]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-13.02.04:807][711]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-13.02.04:807][711]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-13.02.04:807][711]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-13.02.04:807][711]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-13.02.04:807][711]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-13.02.04:808][711]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-13.02.04:808][711]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-13.02.04:808][711]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-13.02.04:808][711]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-13.02.04:808][711]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-13.02.04:810][711]LogInit: FAudioDevice initialized.
+[2021.04.22-13.02.04:817][711]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-13.02.04:819][711]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-14.02.04
+[2021.04.22-13.02.04:820][711]LogWorld: Bringing up level for play took: 0.001897
+[2021.04.22-13.02.04:820][711]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.04.22-13.02.04:821][711]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-13.02.04:822][711]PIE: Server logged in
+[2021.04.22-13.02.04:823][711]PIE: Play in editor total start time 0.063 seconds.
+[2021.04.22-13.02.09:558][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.02.09:558][991]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.02.09:559][991]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.02.09:560][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.02.09:576][991]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-13.02.09:586][991]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.02.09:633][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.02.09:635][991]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000209C21C8B80), frame # 51991
+[2021.04.22-13.02.09:635][991]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209CF78D200), frame # 51991
+[2021.04.22-13.02.09:640][991]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2021.04.22-13.02.09:823][998]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.04.22-13.02.25:497][832]LogSlate: Took 0.002431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.04.22-13.02.47:610][133]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.02.47:623][133]LogBlueprint: Error: [Compiler settingsWidget] Binding: Property ' /Script/UMG.Slider:ValueDelegate ' on Widget ' Slider_34 ': Member:GetValue_0 Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2021.04.22-13.02.47:651][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.04.22-13.02.58:550][778]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.02.59:317][824]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.02.59:651][844]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.02.59:784][852]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.02.59:951][862]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.00:385][888]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.00:668][905]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.00:818][914]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.00:951][922]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.01:118][932]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.01:284][942]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.01:451][952]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.01:618][962]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.01:751][970]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.01:934][981]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.02:068][989]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.02:251][  0]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.02:701][ 27]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.03:135][ 53]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.03:384][ 68]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.03:601][ 81]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.03:785][ 92]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.03:967][103]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.04:168][115]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.04:318][124]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.04:985][164]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.05:184][176]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.05:335][185]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.05:518][196]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.05:535][197]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.05:935][221]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.06:235][239]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.06:418][250]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.07:018][286]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.07:185][296]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.07:384][308]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.07:402][309]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.07:585][320]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.08:168][355]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.08:385][368]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.08:618][382]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.08:835][395]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.09:268][421]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.03.48:319][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2021.04.22-13.03.48:352][652]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/testArea_Auto143A471F942E90860B7D7B199FACFB264.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/FirstPersonBP/Maps/testArea_Auto1.umap'
+[2021.04.22-13.03.48:353][652]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/testArea' took 0.059
+[2021.04.22-13.03.48:353][652]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.059
+[2021.04.22-13.03.48:353][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2021.04.22-13.03.48:353][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2021.04.22-13.03.48:425][652]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/FirstPersonCharacter_Auto1D61A6FCC420A9622AD43409169E2F498.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2021.04.22-13.03.48:426][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/settingsWidget] ([1] browsable assets)...
+[2021.04.22-13.03.48:426][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/settingsWidget]
+[2021.04.22-13.03.48:426][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/settingsWidget" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/Widgets/settingsWidget_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.04.22-13.03.48:433][652]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/settingsWidget_Auto19C41DA324ACF5A17F840E49FB0FE2641.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/Widgets/settingsWidget_Auto1.uasset'
+[2021.04.22-13.03.48:434][652]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Interactive/doorBP] ([1] browsable assets)...
+[2021.04.22-13.03.48:444][652]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Assets/Interactive/doorBP.doorBP]
+[2021.04.22-13.03.48:444][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Interactive/doorBP]
+[2021.04.22-13.03.48:444][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Interactive/doorBP" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/Assets/Interactive/doorBP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.04.22-13.03.48:462][652]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/doorBP_Auto1EACA5C2F4557BBBCDDAF5EA4ED3A1028.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/Assets/Interactive/doorBP_Auto1.uasset'
+[2021.04.22-13.03.48:462][652]LogFileHelpers: Auto-saving content packages took 0.109
+[2021.04.22-13.04.00:849][378]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.04.00:878][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.04.22-13.04.02:115][438]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-13.04.02:125][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-13.04.02:125][438]PIE: New page: PIE session: testArea (22 Apr 2021, 15:04:02)
+[2021.04.22-13.04.02:125][438]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.04.02:136][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010769s)
+[2021.04.22-13.04.02:137][438]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-13.04.02:137][438]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020929491400), frame # 58438
+[2021.04.22-13.04.02:137][438]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020989175080), frame # 58438
+[2021.04.22-13.04.02:137][438]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2021.04.22-13.04.02:137][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.011958s)
+[2021.04.22-13.04.02:162][438]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2021.04.22-13.04.02:164][438]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-13.04.02:164][438]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-13.04.02:164][438]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-13.04.02:164][438]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-13.04.02:164][438]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-13.04.02:164][438]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-13.04.02:164][438]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-13.04.02:164][438]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-13.04.02:165][438]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-13.04.02:165][438]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-13.04.02:166][438]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-13.04.02:166][438]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-13.04.02:166][438]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-13.04.02:166][438]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-13.04.02:166][438]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-13.04.02:168][438]LogInit: FAudioDevice initialized.
+[2021.04.22-13.04.02:173][438]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-13.04.02:175][438]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-14.04.02
+[2021.04.22-13.04.02:176][438]LogWorld: Bringing up level for play took: 0.001896
+[2021.04.22-13.04.02:176][438]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.04.22-13.04.02:177][438]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-13.04.02:178][438]PIE: Server logged in
+[2021.04.22-13.04.02:179][438]PIE: Play in editor total start time 0.057 seconds.
+[2021.04.22-13.04.03:700][528]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	settingsWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_17.settingsWidget_C_0
+	Function /Game/Widgets/settingsWidget.settingsWidget_C:GetValue_0:0000
+[2021.04.22-13.04.03:700][528]PIE: Error: Infinite loop detected. Blueprint:  settingsWidget Function:  Get Value 0 Call Stack:  Show
+[2021.04.22-13.04.03:749][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.04.03:749][529]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.04.03:750][529]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.04.03:750][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.04.03:756][529]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-13.04.03:760][529]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.04.03:790][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.04.03:791][529]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020989175080), frame # 58529
+[2021.04.22-13.04.03:791][529]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020929491400), frame # 58529
+[2021.04.22-13.04.03:793][529]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.04.22-13.04.04:165][536]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.04.22-13.05.04:284][200]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.05.04:314][200]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.04.22-13.05.05:542][268]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-13.05.05:554][268]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-13.05.05:554][268]PIE: New page: PIE session: testArea (22 Apr 2021, 15:05:05)
+[2021.04.22-13.05.05:554][268]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.05.05:565][268]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010912s)
+[2021.04.22-13.05.05:566][268]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-13.05.05:566][268]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209BF7C7E00), frame # 61268
+[2021.04.22-13.05.05:566][268]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020973A902C0), frame # 61268
+[2021.04.22-13.05.05:566][268]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2021.04.22-13.05.05:566][268]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.012040s)
+[2021.04.22-13.05.05:593][268]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.04.22-13.05.05:595][268]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-13.05.05:595][268]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-13.05.05:595][268]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-13.05.05:595][268]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-13.05.05:595][268]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-13.05.05:595][268]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-13.05.05:595][268]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-13.05.05:595][268]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-13.05.05:595][268]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-13.05.05:595][268]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-13.05.05:596][268]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-13.05.05:596][268]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-13.05.05:597][268]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-13.05.05:597][268]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-13.05.05:597][268]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-13.05.05:598][268]LogInit: FAudioDevice initialized.
+[2021.04.22-13.05.05:603][268]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-13.05.05:605][268]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-14.05.05
+[2021.04.22-13.05.05:606][268]LogWorld: Bringing up level for play took: 0.001829
+[2021.04.22-13.05.05:606][268]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.04.22-13.05.05:607][268]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-13.05.05:608][268]PIE: Server logged in
+[2021.04.22-13.05.05:609][268]PIE: Play in editor total start time 0.057 seconds.
+[2021.04.22-13.05.08:076][387]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	settingsWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_18.settingsWidget_C_0
+	Function /Game/Widgets/settingsWidget.settingsWidget_C:Get Slider Value:0000
+[2021.04.22-13.05.08:077][387]PIE: Error: Infinite loop detected. Blueprint:  settingsWidget Function:  Get Slider Value Call Stack:  Show
+[2021.04.22-13.05.08:128][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.05.08:128][388]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.05.08:129][388]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.05.08:130][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.05.08:147][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-13.05.08:158][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.05.08:201][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.05.08:202][388]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020973A902C0), frame # 61388
+[2021.04.22-13.05.08:202][388]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209BF7C7E00), frame # 61388
+[2021.04.22-13.05.08:204][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.04.22-13.05.08:556][395]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.04.22-13.05.11:840][581]LogSlate: Window 'Message Log' being destroyed
+[2021.04.22-13.05.11:847][581]LogSlate: Window 'Message Log' being destroyed
+[2021.04.22-13.05.12:633][625]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-13.05.12:644][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-13.05.12:644][625]PIE: New page: PIE session: testArea (22 Apr 2021, 15:05:12)
+[2021.04.22-13.05.12:644][625]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.05.12:655][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011179s)
+[2021.04.22-13.05.12:656][625]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-13.05.12:656][625]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209CF863200), frame # 61625
+[2021.04.22-13.05.12:656][625]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020911E9F880), frame # 61625
+[2021.04.22-13.05.12:656][625]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2021.04.22-13.05.12:656][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.012348s)
+[2021.04.22-13.05.12:681][625]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.04.22-13.05.12:683][625]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-13.05.12:683][625]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-13.05.12:683][625]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-13.05.12:683][625]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-13.05.12:683][625]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-13.05.12:683][625]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-13.05.12:683][625]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-13.05.12:684][625]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-13.05.12:684][625]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-13.05.12:684][625]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-13.05.12:685][625]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-13.05.12:685][625]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-13.05.12:685][625]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-13.05.12:685][625]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-13.05.12:685][625]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-13.05.12:687][625]LogInit: FAudioDevice initialized.
+[2021.04.22-13.05.12:698][625]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-13.05.12:702][625]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-14.05.12
+[2021.04.22-13.05.12:703][625]LogWorld: Bringing up level for play took: 0.004003
+[2021.04.22-13.05.12:703][625]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.04.22-13.05.12:705][625]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-13.05.12:707][625]PIE: Server logged in
+[2021.04.22-13.05.12:708][625]PIE: Play in editor total start time 0.068 seconds.
+[2021.04.22-13.05.13:249][656]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	settingsWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_19.settingsWidget_C_0
+	Function /Game/Widgets/settingsWidget.settingsWidget_C:Get Slider Value:0000
+[2021.04.22-13.05.13:250][656]PIE: Error: Infinite loop detected. Blueprint:  settingsWidget Function:  Get Slider Value Call Stack:  Show
+[2021.04.22-13.05.13:318][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.05.13:319][657]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.05.13:319][657]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.05.13:320][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.05.13:338][657]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-13.05.13:348][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.05.13:392][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.05.13:393][657]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020911E9F880), frame # 61657
+[2021.04.22-13.05.13:393][657]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209CF863200), frame # 61657
+[2021.04.22-13.05.13:395][657]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2021.04.22-13.05.13:736][664]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.04.22-13.05.14:888][731]LogSlate: Window 'Message Log' being destroyed
+[2021.04.22-13.05.14:896][731]LogSlate: Window 'Message Log' being destroyed
+[2021.04.22-13.05.28:674][517]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.05.28:676][517]LogBlueprint: Warning: [Compiler settingsWidget] Set Mouse  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2021.04.22-13.05.28:703][517]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.04.22-13.05.41:246][253]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.05.41:276][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.04.22-13.08.36:265][711]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.08.36:296][711]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.04.22-13.08.38:235][815]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-13.08.38:245][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-13.08.38:245][815]PIE: New page: PIE session: testArea (22 Apr 2021, 15:08:38)
+[2021.04.22-13.08.38:245][815]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.08.38:256][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011330s)
+[2021.04.22-13.08.38:257][815]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-13.08.38:257][815]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209D3334400), frame # 73815
+[2021.04.22-13.08.38:257][815]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209DD164180), frame # 73815
+[2021.04.22-13.08.38:258][815]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2021.04.22-13.08.38:258][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.012605s)
+[2021.04.22-13.08.38:284][815]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.04.22-13.08.38:286][815]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-13.08.38:286][815]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-13.08.38:286][815]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-13.08.38:286][815]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-13.08.38:286][815]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-13.08.38:286][815]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-13.08.38:286][815]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-13.08.38:286][815]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-13.08.38:286][815]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-13.08.38:286][815]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-13.08.38:288][815]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-13.08.38:288][815]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-13.08.38:288][815]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-13.08.38:288][815]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-13.08.38:288][815]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-13.08.38:290][815]LogInit: FAudioDevice initialized.
+[2021.04.22-13.08.38:294][815]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-13.08.38:296][815]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-14.08.38
+[2021.04.22-13.08.38:297][815]LogWorld: Bringing up level for play took: 0.001943
+[2021.04.22-13.08.38:297][815]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.04.22-13.08.38:298][815]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-13.08.38:300][815]PIE: Server logged in
+[2021.04.22-13.08.38:300][815]PIE: Play in editor total start time 0.058 seconds.
+[2021.04.22-13.08.39:138][864]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	settingsWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_20.settingsWidget_C_0
+	Function /Game/Widgets/settingsWidget.settingsWidget_C:Get Slider Value:0000
+[2021.04.22-13.08.39:138][864]PIE: Error: Infinite loop detected. Blueprint:  settingsWidget Function:  Get Slider Value Call Stack:  Show
+[2021.04.22-13.08.39:190][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.08.39:190][865]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.08.39:190][865]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.08.39:190][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.08.39:195][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-13.08.39:199][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.08.39:228][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.08.39:229][865]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000209DD164180), frame # 73865
+[2021.04.22-13.08.39:229][865]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209D3334400), frame # 73865
+[2021.04.22-13.08.39:231][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.04.22-13.08.39:600][872]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.04.22-13.09.42:455][504]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-13.09.42:467][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.22-13.09.42:467][504]PIE: New page: PIE session: testArea (22 Apr 2021, 15:09:42)
+[2021.04.22-13.09.42:467][504]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.09.42:478][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011623s)
+[2021.04.22-13.09.42:479][504]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-13.09.42:479][504]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209D5D19000), frame # 77504
+[2021.04.22-13.09.42:479][504]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002092AC97C40), frame # 77504
+[2021.04.22-13.09.42:480][504]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2021.04.22-13.09.42:480][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.012828s)
+[2021.04.22-13.09.42:506][504]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.04.22-13.09.42:511][504]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-13.09.42:511][504]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-13.09.42:511][504]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-13.09.42:511][504]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-13.09.42:511][504]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-13.09.42:511][504]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-13.09.42:511][504]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-13.09.42:511][504]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-13.09.42:511][504]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-13.09.42:511][504]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-13.09.42:512][504]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-13.09.42:512][504]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-13.09.42:512][504]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-13.09.42:512][504]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-13.09.42:513][504]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-13.09.42:513][504]LogInit: FAudioDevice initialized.
+[2021.04.22-13.09.42:520][504]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-13.09.42:522][504]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-14.09.42
+[2021.04.22-13.09.42:523][504]LogWorld: Bringing up level for play took: 0.001835
+[2021.04.22-13.09.42:523][504]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.04.22-13.09.42:524][504]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-13.09.42:525][504]PIE: Server logged in
+[2021.04.22-13.09.42:526][504]PIE: Play in editor total start time 0.064 seconds.
+[2021.04.22-13.09.43:402][555]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	settingsWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_21.settingsWidget_C_0
+	Function /Game/Widgets/settingsWidget.settingsWidget_C:Get Slider Value:0000
+[2021.04.22-13.09.43:403][555]PIE: Error: Infinite loop detected. Blueprint:  settingsWidget Function:  Get Slider Value Call Stack:  Show
+[2021.04.22-13.09.43:479][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.09.43:479][556]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.09.43:480][556]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.09.43:480][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.09.43:496][556]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-13.09.43:505][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.09.43:538][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.09.43:539][556]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002092AC97C40), frame # 77556
+[2021.04.22-13.09.43:539][556]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209D5D19000), frame # 77556
+[2021.04.22-13.09.43:541][556]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.04.22-13.09.43:854][563]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.04.22-13.10.29:099][196]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UKismetMathLibrary::Multiply_FloatFloat' [Element not found.]
+[2021.04.22-13.12.12:160][209]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.04.22-13.12.12:171][209]LogBlueprint: Error: [Compiler FirstPersonCharacter] The type of  Object  is undetermined.  Connect something to  Cast To settingsWidget  to imply a specific type.
+[2021.04.22-13.12.12:172][209]LogBlueprint: Error: [Compiler FirstPersonCharacter] The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2021.04.22-13.12.12:216][209]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2021.04.22-13.12.48:829][348]LogEditorTransaction: Undo Add Pin
+[2021.04.22-13.13.06:862][385]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.13.06:875][385]LogBlueprint: Error: [Compiler settingsWidget] Pin  Return Value  named ReturnValue doesn't match any parameters of function Get Slider Value
+[2021.04.22-13.13.06:875][385]LogBlueprint: Error: [Compiler settingsWidget] Binding: Property ' /Script/UMG.Slider:ValueDelegate ' on Widget ' Slider_34 ': Member:Get Slider Value Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2021.04.22-13.13.06:904][385]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.04.22-13.13.09:068][512]LogEditorTransaction: Undo Delete current selection
+[2021.04.22-13.13.14:314][806]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.13.14:344][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.04.22-13.13.25:812][484]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.13.25:842][484]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2021.04.22-13.13.27:161][546]LogTemp: Repeating last play command: Selected Viewport
+[2021.04.22-13.13.27:172][546]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.04.22-13.13.27:175][546]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2021.04.22-13.13.27:245][546]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.04.22-13.13.27:247][546]LogPlayLevel: PlayLevel: Blueprint regeneration took 74 ms (1 blueprints)
+[2021.04.22-13.13.27:247][546]PIE: New page: PIE session: testArea (22 Apr 2021, 15:13:27)
+[2021.04.22-13.13.27:247][546]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.13.27:259][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012467s)
+[2021.04.22-13.13.27:260][546]LogAIModule: Creating AISystem for world testArea
+[2021.04.22-13.13.27:260][546]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000209E5642C00), frame # 90546
+[2021.04.22-13.13.27:260][546]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000209CFE407C0), frame # 90546
+[2021.04.22-13.13.27:260][546]LogPlayLevel: PIE: World Init took: (0.001127s)
+[2021.04.22-13.13.27:261][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/testArea.testArea to /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea (0.013715s)
+[2021.04.22-13.13.27:284][546]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.04.22-13.13.27:286][546]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-13.13.27:286][546]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-13.13.27:286][546]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-13.13.27:286][546]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-13.13.27:286][546]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-13.13.27:286][546]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-13.13.27:286][546]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-13.13.27:286][546]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-13.13.27:286][546]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-13.13.27:286][546]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-13.13.27:287][546]LogAudioMixer: Display: Using Audio Device Unknown
+[2021.04.22-13.13.27:287][546]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-13.13.27:288][546]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-13.13.27:288][546]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-13.13.27:288][546]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-13.13.27:289][546]LogInit: FAudioDevice initialized.
+[2021.04.22-13.13.27:303][546]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.04.22-13.13.27:307][546]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_testArea.testArea up for play (max tick rate 0) at 2021.04.22-14.13.27
+[2021.04.22-13.13.27:308][546]LogWorld: Bringing up level for play took: 0.003287
+[2021.04.22-13.13.27:308][546]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.04.22-13.13.27:310][546]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2021.04.22-13.13.27:312][546]PIE: Server logged in
+[2021.04.22-13.13.27:312][546]PIE: Play in editor total start time 0.143 seconds.
+[2021.04.22-13.13.28:177][596]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	settingsWidget_C /Engine/Transient.UnrealEdEngine_0:GameInstance_22.settingsWidget_C_0
+	Function /Game/Widgets/settingsWidget.settingsWidget_C:Get Slider Value:0000
+[2021.04.22-13.13.28:178][596]PIE: Error: Infinite loop detected. Blueprint:  settingsWidget Function:  Get Slider Value Call Stack:  Show
+[2021.04.22-13.13.28:240][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.13.28:240][597]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_testArea
+[2021.04.22-13.13.28:241][597]LogWorld: UWorld::CleanupWorld for testArea, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.13.28:242][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.13.28:261][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.22-13.13.28:271][597]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.13.28:315][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-13.13.28:318][597]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000209CFE407C0), frame # 90597
+[2021.04.22-13.13.28:318][597]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000209E5642C00), frame # 90597
+[2021.04.22-13.13.28:324][597]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2021.04.22-13.13.28:630][604]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.04.22-13.13.56:481][209]LogEditorTransaction: Undo Add Pin
+[2021.04.22-13.14.59:774][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.04.22-13.14.59:808][825]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/testArea_Auto273F0CCB8419C480D8C7CF49CFEDBD60B.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/FirstPersonBP/Maps/testArea_Auto2.umap'
+[2021.04.22-13.14.59:810][825]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/testArea' took 0.063
+[2021.04.22-13.14.59:810][825]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.063
+[2021.04.22-13.14.59:810][825]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2021.04.22-13.14.59:810][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2021.04.22-13.14.59:842][825]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/FirstPersonCharacter_Auto2A5AA6478439DD730EA59849FA565AD38.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2021.04.22-13.14.59:842][825]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Widgets/settingsWidget] ([1] browsable assets)...
+[2021.04.22-13.14.59:842][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/settingsWidget]
+[2021.04.22-13.14.59:842][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/settingsWidget" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/Widgets/settingsWidget_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2021.04.22-13.14.59:850][825]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/settingsWidget_Auto2EA525D794E55ADD35597EDA807C0474E.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/Widgets/settingsWidget_Auto2.uasset'
+[2021.04.22-13.14.59:851][825]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Interactive/doorBP] ([1] browsable assets)...
+[2021.04.22-13.14.59:851][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Interactive/doorBP]
+[2021.04.22-13.14.59:851][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Interactive/doorBP" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/Assets/Interactive/doorBP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2021.04.22-13.14.59:865][825]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/doorBP_Auto2D89E348E49B40F50B2541696A5930BAA.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/Autosaves/Game/Assets/Interactive/doorBP_Auto2.uasset'
+[2021.04.22-13.14.59:865][825]LogFileHelpers: Auto-saving content packages took 0.056
+[2021.04.22-13.16.06:536][648]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.16.06:550][648]LogBlueprint: Error: [Compiler settingsWidget] Binding: Property ' /Script/UMG.Slider:ValueDelegate ' on Widget ' Slider_34 ': Binding: 'None' : 'None' was not found on 'Settings Widget'.
+[2021.04.22-13.16.06:577][648]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.04.22-13.16.09:908][839]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.16.09:924][840]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.16.11:007][905]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.16.11:174][915]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.16.11:341][925]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.16.11:507][935]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.16.11:757][950]LogBlueprint: Warning: Unknown type of hyperlinked object (Slider_34), cannot focus it
+[2021.04.22-13.16.21:084][487]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.16.21:113][487]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2021.04.22-13.16.47:557][ 17]BlueprintLog: New page: Compile settingsWidget
+[2021.04.22-13.16.47:587][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.04.22-13.16.52:206][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/Volumetrics/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/Volumetrics/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:207][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:208][235]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.16.52:338][235]EditorErrors: Warning: No assets to check in!
+[2021.04.22-13.16.56:243][450]LogSlate: Window 'Message Log' being destroyed
+[2021.04.22-13.16.56:249][450]LogSlate: Window 'Message Log' being destroyed
+[2021.04.22-13.16.57:038][497]LogSlate: Window 'settingsWidget' being destroyed
+[2021.04.22-13.16.57:041][497]LogSlate: Window 'settingsWidget' being destroyed
+[2021.04.22-13.16.57:049][497]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.16.57:049][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.16.57:102][497]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.16.57:102][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.16.57:112][497]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-13.16.57:112][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-13.16.58:391][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2021.04.22-13.16.59:469][568]LogSlate: Window 'Save Content' being destroyed
+[2021.04.22-13.16.59:686][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Interactive/doorBP" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/Assets/Interactive/doorBP.uasset" SILENT=true
+[2021.04.22-13.16.59:699][568]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/doorBPCD9B18EC4844345F6B25D7BF625DE373.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/Assets/Interactive/doorBP.uasset'
+[2021.04.22-13.16.59:701][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Blueprints/FirstPersonCharacter" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2021.04.22-13.16.59:733][568]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/FirstPersonCharacter5813CC31449A3051FC22B1A9319F2012.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.04.22-13.16.59:735][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/testArea" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.04.22-13.16.59:771][568]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2021.04.22-13.16.59:797][568]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/testAreaC6861322405F6CB111AE04A351F6D348.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea.umap'
+[2021.04.22-13.16.59:812][568]LogFileHelpers: Saving map 'testArea' took 0.077
+[2021.04.22-13.16.59:812][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/testArea_BuiltData" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea_BuiltData.uasset" SILENT=true
+[2021.04.22-13.16.59:837][568]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/testArea_BuiltDataF7F734834E61693E042C1CB0DD2F4F45.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea_BuiltData.uasset'
+[2021.04.22-13.16.59:838][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonBP/Maps/testArea_BuiltData" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea_BuiltData.uasset" SILENT=true
+[2021.04.22-13.16.59:857][568]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/testArea_BuiltDataCF21FC4C4318419D2EE465A74FD1735B.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/FirstPersonBP/Maps/testArea_BuiltData.uasset'
+[2021.04.22-13.16.59:858][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/settingsWidget" FILE="D:/Harry Foster FMP CGD/Spotted-FMP/Content/Widgets/settingsWidget.uasset" SILENT=true
+[2021.04.22-13.16.59:863][568]LogSavePackage: Moving 'D:/Harry Foster FMP CGD/Spotted-FMP/Saved/settingsWidget77168598457E7CEB381924A44CA32DAD.tmp' to 'D:/Harry Foster FMP CGD/Spotted-FMP/Content/Widgets/settingsWidget.uasset'
+[2021.04.22-13.16.59:887][568]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.22-13.16.59:887][568]LogContentValidation: Display: Validating Blueprint /Game/Assets/Interactive/doorBP.doorBP
+[2021.04.22-13.16.59:887][568]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.04.22-13.16.59:887][568]LogContentValidation: Display: Validating World /Game/FirstPersonBP/Maps/testArea.testArea
+[2021.04.22-13.16.59:887][568]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonBP/Maps/testArea_BuiltData.testArea_BuiltData
+[2021.04.22-13.16.59:887][568]LogContentValidation: Display: Validating WidgetBlueprint /Game/Widgets/settingsWidget.settingsWidget
+[2021.04.22-13.17.02:168][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:168][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:168][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:168][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:168][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:168][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:168][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:168][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:169][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:169][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:169][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/Volumetrics/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/Volumetrics/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:169][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:169][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:169][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:169][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:169][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:169][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:169][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.17.02:169][688]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/Harry Foster FMP CGD/Spotted-FMP'
+[2021.04.22-13.19.04:779][688]LogSlate: Window 'Submit Files' being destroyed
+[2021.04.22-13.19.08:153][688]LogSourceControl: commit successful: [master 69916c7] all upload
+[2021.04.22-13.19.08:319][688]SourceControl: [master 69916c7] all upload
+[2021.04.22-13.19.08:319][688]SourceControl:  5 files changed, 0 insertions(+), 0 deletions(-)
+[2021.04.22-13.19.08:319][688]SourceControl:  rewrite Content/Assets/Interactive/doorBP.uasset (72%)
+[2021.04.22-13.19.08:319][688]SourceControl:  rewrite Content/Widgets/settingsWidget.uasset (81%)
+[2021.04.22-13.19.08:322][688]SourceControl: Commited [master 69916c7] all upload.

@@ -56,6 +56,10 @@
 		{
 			"Name": "IOSDeviceProfileSelector",
 			"Enabled": false
+		},
+		{
+			"Name": "Text3D",
+			"Enabled": true
 		}
 	]
 }

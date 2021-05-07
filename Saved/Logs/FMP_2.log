@@ -627,3 +627,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.04.30-10.02.24:158][347]LogTemp: Resetting audio stream to device id 
 [2021.04.30-10.02.24:180][347]LogAudioMixer: Display: 0: FrontLeft
 [2021.04.30-10.02.24:180][347]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-11.02.09:730][416]LogAudioMixer: Warning: Changing default audio render device to new device: .
+[2021.04.30-11.02.09:730][416]LogTemp: Resetting audio stream to device id 
